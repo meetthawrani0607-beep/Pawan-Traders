@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🏢 Pawan Traders - Business Website
 
 A modern, responsive business website for **Pawan Traders** - a premium supplier of plywood, MDF, laminates, and interior materials.
@@ -181,3 +182,6 @@ Built with modern web technologies and best practices.
 **🚀 Ready for production deployment!**
 
 Made with ❤️ for Pawan Traders
+=======
+# Pawan-Traders
+>>>>>>> 313937d7d34376aa6df1c38fb8dfaa8764bb4b72

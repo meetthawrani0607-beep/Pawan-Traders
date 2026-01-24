@@ -8,13 +8,13 @@
 // ============================================
 const CONFIG = {
     whatsapp: {
-        number: '919876543210', // Replace with actual owner's number
+        number: '919016069785', // Pawan Traders WhatsApp number
         defaultMessage: 'Hello, I would like to enquire about your products.'
     },
     business: {
-        phone: '+91 98765 43210',
+        phone: '+91 90160 69785',
         email: 'info@pawantraders.com',
-        address: 'Shop No. 123, Market Area, City, State - 123456'
+        address: 'Shop No, Siddharth Samanvay, 2 1, Pvr Deep Talkies Road, Navi Ashapuri, Chhani Jakatnaka, Vadodara, Gujarat 390024'
     }
 };
 
