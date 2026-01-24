@@ -1,0 +1,19 @@
+{
+  "name": "pawan-traders-website",
+  "version": "1.0.0",
+  "description": "Production-ready website for Pawan Traders - Plywood, MDF, and Interior Materials Supplier",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo 'Open index.html in your browser to view the website'"
+  },
+  "keywords": [
+    "plywood",
+    "mdf",
+    "laminates",
+    "interior-materials",
+    "building-materials",
+    "pawan-traders"
+  ],
+  "author": "Pawan Traders",
+  "license": "PROPRIETARY"
+}

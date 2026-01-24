@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Pawan Traders - Premium supplier of plywood, MDF, laminates, and interior materials. Quality products for all your building needs.">
+    <meta name="keywords" content="plywood, MDF, laminates, interior materials, building materials, Pawan Traders">
+    <meta name="author" content="Pawan Traders">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Pawan Traders - Premium Plywood & Interior Materials">
+    <meta property="og:description" content="Your trusted partner for quality building materials">
+    <meta property="og:type" content="website">
+
+    <title>Pawan Traders - Premium Plywood & Interior Materials</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- ============================================
+       HEADER & NAVIGATION
+       ============================================ -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo" aria-label="Pawan Traders Home">
+                <img src="images/logo.png" alt="Pawan Traders Logo" class="logo-img">
+                <div>
+                    <div class="logo-text">Pawan Traders</div>
+                    <div class="logo-subtitle">Quality Building Materials</div>
+                </div>
+            </a>
+
+            <nav class="nav-main">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link active" data-i18n="nav_home">Home</a></li>
+                    <li><a href="products.html" class="nav-link" data-i18n="nav_products">Products</a></li>
+                    <li><a href="about.html" class="nav-link" data-i18n="nav_about">About Us</a></li>
+                    <li><a href="contact.html" class="nav-link" data-i18n="nav_contact">Contact</a></li>
+                </ul>
+
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="hi">हिं</button>
+                    <button class="lang-btn" data-lang="gu">ગુ</button>
+                </div>
+            </nav>
+
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Backdrop -->
+    <div class="mobile-menu-backdrop"></div>
+
+    <!-- ============================================
+       HERO SECTION
+       ============================================ -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 data-i18n="hero_title">Premium Plywood & Interior Materials</h1>
+                    <p data-i18n="hero_subtitle">Your Trusted Partner for Quality Building Materials</p>
+
+                    <div class="cta-group">
+                        <button class="btn btn-primary" data-whatsapp aria-label="Chat on WhatsApp">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                            </svg>
+                            <span data-i18n="hero_cta_whatsapp">Chat on WhatsApp</span>
+                        </button>
+
+                        <a href="tel:+919876543210" class="btn btn-secondary" aria-label="Call now">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 00-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z" />
+                            </svg>
+                            <span data-i18n="hero_cta_call">Call Now</span>
+                        </a>
+
+                        <a href="contact.html" class="btn btn-outline" aria-label="Send enquiry">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                            </svg>
+                            <span data-i18n="hero_cta_enquire">Send Enquiry</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <img src="images/hero-plywood.jpg" alt="Premium quality plywood and building materials"
+                        loading="eager">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+       TRUST BADGES
+       ============================================ -->
+    <section class="trust-section section-sm">
+        <div class="container">
+            <div class="trust-badges">
+                <div class="trust-badge">
+                    <div class="trust-icon">✓</div>
+                    <h3 data-i18n="trust_quality_title">Premium Quality</h3>
+                    <p data-i18n="trust_quality_desc">Sourced from top manufacturers</p>
+                </div>
+
+                <div class="trust-badge">
+                    <div class="trust-icon">📦</div>
+                    <h3 data-i18n="trust_range_title">Wide Range</h3>
+                    <p data-i18n="trust_range_desc">Comprehensive product selection</p>
+                </div>
+
+                <div class="trust-badge">
+                    <div class="trust-icon">🚚</div>
+                    <h3 data-i18n="trust_reliable_title">Reliable Supply</h3>
+                    <p data-i18n="trust_reliable_desc">Consistent availability & delivery</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+       PRODUCTS OVERVIEW
+       ============================================ -->
+    <section class="section">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 data-i18n="products_title">Our Products</h2>
+                <p class="text-muted" data-i18n="products_subtitle">High-quality materials for your interior needs</p>
+            </div>
+
+            <div class="products-grid">
+                <!-- Plywood -->
+                <div class="product-card">
+                    <img src="images/plywood.jpg" alt="Premium plywood sheets" class="product-image" loading="lazy">
+                    <div class="product-content">
+                        <h3 class="product-title" data-i18n="category_plywood">Plywood</h3>
+                        <p class="product-desc">High-grade commercial and marine plywood in various thicknesses</p>
+                        <button class="btn btn-primary product-cta" data-whatsapp
+                            data-whatsapp-message="I'm interested in Plywood products">
+                            <span data-i18n="btn_enquire">Enquire on WhatsApp</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- MDF -->
+                <div class="product-card">
+                    <img src="images/mdf.jpg" alt="MDF boards" class="product-image" loading="lazy">
+                    <div class="product-content">
+                        <h3 class="product-title" data-i18n="category_mdf">MDF Boards</h3>
+                        <p class="product-desc">Smooth, durable MDF boards ideal for furniture and interiors</p>
+                        <button class="btn btn-primary product-cta" data-whatsapp
+                            data-whatsapp-message="I'm interested in MDF products">
+                            <span data-i18n="btn_enquire">Enquire on WhatsApp</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Laminates -->
+                <div class="product-card">
+                    <img src="images/laminates.jpg" alt="Decorative laminates" class="product-image" loading="lazy">
+                    <div class="product-content">
+                        <h3 class="product-title" data-i18n="category_laminates">Laminates</h3>
+                        <p class="product-desc">Wide range of decorative laminates in modern designs and textures</p>
+                        <button class="btn btn-primary product-cta" data-whatsapp
+                            data-whatsapp-message="I'm interested in Laminate products">
+                            <span data-i18n="btn_enquire">Enquire on WhatsApp</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Interior Materials -->
+                <div class="product-card">
+                    <img src="images/interior.jpg" alt="Interior materials and accessories" class="product-image"
+                        loading="lazy">
+                    <div class="product-content">
+                        <h3 class="product-title" data-i18n="category_interior">Interior Materials</h3>
+                        <p class="product-desc">Complete range of interior materials and finishing accessories</p>
+                        <button class="btn btn-primary product-cta" data-whatsapp
+                            data-whatsapp-message="I'm interested in Interior Materials">
+                            <span data-i18n="btn_enquire">Enquire on WhatsApp</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-4">
+                <a href="products.html" class="btn btn-secondary">View All Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+       FOOTER
+       ============================================ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Pawan Traders</h3>
+                    <p data-i18n="footer_tagline">Your trusted partner for quality building materials</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3 data-i18n="footer_quick_links">Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+                        <li><a href="products.html" data-i18n="nav_products">Products</a></li>
+                        <li><a href="about.html" data-i18n="nav_about">About Us</a></li>
+                        <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3 data-i18n="footer_contact_us">Contact Us</h3>
+                    <ul>
+                        <li><a href="tel:+919876543210">+91 98765 43210</a></li>
+                        <li><a href="mailto:info@pawantraders.com">info@pawantraders.com</a></li>
+                        <li>Shop No. 123, Market Area<br>City, State - 123456</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p data-i18n="footer_copyright">© 2026 Pawan Traders. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================
+       FLOATING WHATSAPP BUTTON
+       ============================================ -->
+    <div class="whatsapp-float">
+        <a href="#" class="whatsapp-btn" data-whatsapp aria-label="Contact us on WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+            </svg>
+        </a>
+    </div>
+
+    <!-- ============================================
+       CHATBOT
+       ============================================ -->
+    <div class="chatbot-container">
+        <div class="chatbot-toggle" aria-label="Open chat">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                    d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-7 9h-2V5h2v6zm0 4h-2v-2h2v2z" />
+                <circle cx="8" cy="14" r="1.5" fill="currentColor" />
+                <circle cx="12" cy="14" r="1.5" fill="currentColor" />
+                <circle cx="16" cy="14" r="1.5" fill="currentColor" />
+            </svg>
+        </div>
+
+        <div class="chatbot-window">
+            <div class="chatbot-header">
+                <div>
+                    <h3 data-i18n="chatbot_title">How can we help?</h3>
+                    <p style="font-size: 0.75rem; opacity: 0.9; margin: 0;">Quick answers to your questions</p>
+                </div>
+                <button class="chatbot-close" aria-label="Close chat">&times;</button>
+            </div>
+
+            <div class="chatbot-messages">
+                <div class="chatbot-message bot" data-i18n="chatbot_welcome">
+                    👋 Hello! I'm here to help you find the perfect building materials.
+                    <br><br>
+                    What would you like to know?
+                </div>
+            </div>
+
+            <div class="chatbot-options">
+                <button class="chatbot-option" data-option="products">
+                    <span class="option-icon">📦</span>
+                    <span>View Products</span>
+                </button>
+                <button class="chatbot-option" data-option="price">
+                    <span class="option-icon">💰</span>
+                    <span>Get Price Quote</span>
+                </button>
+                <button class="chatbot-option" data-option="hours">
+                    <span class="option-icon">🕐</span>
+                    <span>Business Hours</span>
+                </button>
+                <button class="chatbot-option" data-option="location">
+                    <span class="option-icon">📍</span>
+                    <span>Our Location</span>
+                </button>
+                <button class="chatbot-option" data-option="delivery">
+                    <span class="option-icon">🚚</span>
+                    <span>Delivery Info</span>
+                </button>
+                <button class="chatbot-option" data-option="quality">
+                    <span class="option-icon">✅</span>
+                    <span>Quality Assurance</span>
+                </button>
+                <button class="chatbot-option" data-option="bulk">
+                    <span class="option-icon">📊</span>
+                    <span>Bulk Orders</span>
+                </button>
+                <button class="chatbot-option" data-option="whatsapp">
+                    <span class="option-icon">💬</span>
+                    <span>Chat on WhatsApp</span>
+                </button>
+            </div>
+
+            <!-- Chat Input Section -->
+            <div class="chatbot-input">
+                <input type="text" class="chatbot-text-input" placeholder="Type your message..."
+                    aria-label="Chat message">
+                <button class="chatbot-send-btn" aria-label="Send message">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================================
+       SCRIPTS
+       ============================================ -->
+    <script src="script.js"></script>
+    <script src="enhancements.js"></script>
+</body>
+
+</html>
