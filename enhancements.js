@@ -11,8 +11,8 @@
     // ============================================
     function initScrollAnimations() {
         const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
+            threshold: 0.15,
+            rootMargin: '0px 0px -100px 0px'
         };
 
         const observer = new IntersectionObserver((entries) => {
@@ -43,7 +43,7 @@
         window.addEventListener('scroll', () => {
             const currentScroll = window.pageYOffset;
 
-            if (currentScroll > 50) {
+            if (currentScroll > 20) {
                 header.classList.add('scrolled');
             } else {
                 header.classList.remove('scrolled');
@@ -164,17 +164,7 @@
 
         function handleTilt(e) {
             const card = e.currentTarget;
-            const rect = card.getBoundingClientRect();
-            const x = e.clientX - rect.left;
-            const y = e.clientY - rect.top;
-
-            const centerX = rect.width / 2;
-            const centerY = rect.height / 2;
-
-            const rotateX = (y - centerY) / 50;
-            const rotateY = (centerX - x) / 50;
-
-            card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-5px)`;
+            card.style.transform = 'translateY(-8px)';
         }
 
         function resetTilt(e) {

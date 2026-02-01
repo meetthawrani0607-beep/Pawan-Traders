@@ -7,93 +7,93 @@
    ENHANCED CSS VARIABLES & DESIGN TOKENS
    ============================================ */
 :root {
-    /* PRIMARY BRAND COLOR - Royal Indigo Blue */
-    --color-primary: #3F2F93;
-    --color-primary-dark: #2F2270;
-    --color-primary-light: #5A4AB8;
+    /* PRIMARY BRAND COLOR - Deep Professional Indigo */
+    --color-primary: #2D3192;
+    --color-primary-dark: #1A1C63;
+    --color-primary-light: #4A4EB8;
 
-    /* ACCENT COLOR - Soft Lavender Blue */
-    --color-accent: #E6E3F5;
-    --color-accent-dark: #D4CFED;
-    --color-accent-light: #F2F0FA;
+    /* ACCENT COLOR - Sophisticated Neutral Blue */
+    --color-accent: #F0F2F9;
+    --color-accent-dark: #E1E6F2;
+    --color-accent-light: #F8FAFC;
 
-    /* TEXT COLORS */
-    --color-text-primary: #1F1F1F;
-    --color-text-secondary: #6B6B6B;
+    /* TEXT COLORS - High Contrast & Airy */
+    --color-text-primary: #0F172A;
+    --color-text-secondary: #475569;
+    --color-text-muted: #64748B;
 
-    /* CTA COLOR - WhatsApp Green */
-    --color-whatsapp: #25D366;
-    --color-whatsapp-dark: #1EAA52;
-    --color-whatsapp-light: #3FE07B;
+    /* CTA COLOR - Trust WhatsApp Green */
+    --color-whatsapp: #128C7E;
+    --color-whatsapp-dark: #075E54;
+    --color-whatsapp-light: #25D366;
 
-    /* Neutrals */
+    /* Neutrals - Slate Palette */
     --color-white: #FFFFFF;
-    --color-light: #F8F9FA;
-    --color-gray-100: #F5F5F5;
-    --color-gray-200: #E8E8E8;
-    --color-gray-300: #D1D1D1;
-    --color-gray-400: #B8B8B8;
-    --color-gray-500: #9E9E9E;
-    --color-gray-600: #6B6B6B;
-    --color-gray-700: #4A4A4A;
-    --color-gray-800: #2E2E2E;
-    --color-gray-900: #1F1F1F;
+    --color-light: #F8FAFC;
+    --color-gray-50: #F1F5F9;
+    --color-gray-100: #E2E8F0;
+    --color-gray-200: #CBD5E1;
+    --color-gray-300: #94A3B8;
+    --color-gray-400: #64748B;
+    --color-gray-500: #475569;
+    --color-gray-600: #334155;
+    --color-gray-700: #1E293B;
+    --color-gray-800: #0F172A;
+    --color-gray-900: #020617;
     --color-black: #000000;
 
     /* Semantic Colors */
-    --color-success: #25D366;
-    --color-warning: #FFA726;
-    --color-danger: #EF5350;
-    --color-info: #3F2F93;
+    --color-success: #10B981;
+    --color-warning: #F59E0B;
+    --color-danger: #EF4444;
+    --color-info: #3B82F6;
 
-    /* Typography - Enhanced */
-    --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    --font-heading: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    /* Typography - Professional Serif/Sans Mix */
+    --font-primary: 'Inter', system-ui, -apple-system, sans-serif;
+    --font-heading: 'Inter', system-ui, -apple-system, sans-serif;
 
-    /* Spacing Scale - Professional */
-    --spacing-xs: 0.5rem;
+    /* Spacing Scale - Consistent 4px Base */
+    --spacing-3xs: 0.25rem;
+    /* 4px */
+    --spacing-2xs: 0.5rem;
     /* 8px */
-    --spacing-sm: 0.75rem;
+    --spacing-xs: 0.75rem;
     /* 12px */
-    --spacing-md: 1rem;
+    --spacing-sm: 1rem;
     /* 16px */
-    --spacing-lg: 1.5rem;
+    --spacing-md: 1.5rem;
     /* 24px */
-    --spacing-xl: 2rem;
+    --spacing-lg: 2rem;
     /* 32px */
-    --spacing-2xl: 3rem;
+    --spacing-xl: 3rem;
     /* 48px */
-    --spacing-3xl: 4rem;
+    --spacing-2xl: 4rem;
     /* 64px */
-    --spacing-4xl: 6rem;
+    --spacing-3xl: 6rem;
     /* 96px */
+    --spacing-4xl: 8rem;
+    /* 128px */
 
     /* Layout */
-    --container-max-width: 1200px;
+    --container-max-width: 1280px;
+    --border-radius-sm: 8px;
     --border-radius: 12px;
-    --border-radius-sm: 6px;
-    --border-radius-lg: 16px;
-    --border-radius-xl: 24px;
+    --border-radius-lg: 20px;
+    --border-radius-xl: 32px;
     --border-radius-full: 9999px;
 
-    /* Enhanced Shadows */
-    --shadow-xs: 0 1px 2px 0 rgba(63, 47, 147, 0.05);
-    --shadow-sm: 0 2px 4px 0 rgba(63, 47, 147, 0.08);
-    --shadow: 0 4px 6px -1px rgba(63, 47, 147, 0.1), 0 2px 4px -1px rgba(63, 47, 147, 0.06);
-    --shadow-md: 0 8px 12px -2px rgba(63, 47, 147, 0.12), 0 4px 6px -2px rgba(63, 47, 147, 0.08);
-    --shadow-lg: 0 12px 24px -4px rgba(63, 47, 147, 0.15), 0 6px 12px -4px rgba(63, 47, 147, 0.1);
-    --shadow-xl: 0 20px 40px -8px rgba(63, 47, 147, 0.2), 0 8px 16px -4px rgba(63, 47, 147, 0.12);
+    /* Elevation System - Organic Layered Shadows */
+    --shadow-flat: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --shadow-sm: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-md: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    --shadow-xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    --shadow-inner: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
 
-    /* Transitions - Smooth */
-    --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-slow: 350ms cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-slower: 500ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    /* Animation Timing Functions */
-    --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
-    --ease-out: cubic-bezier(0.0, 0, 0.2, 1);
-    --ease-in: cubic-bezier(0.4, 0, 1, 1);
+    /* Smooth Micro-Interactions */
+    --transition-fast: 150ms cubic-bezier(0.2, 0, 0, 1);
+    --transition-base: 300ms cubic-bezier(0.2, 0, 0, 1);
+    --transition-slow: 500ms cubic-bezier(0.2, 0, 0, 1);
 }
 
 /* ============================================
@@ -116,10 +116,11 @@ html {
 
 body {
     font-family: var(--font-primary);
-    line-height: 1.65;
+    line-height: 1.6;
     color: var(--color-text-primary);
     background-color: var(--color-white);
     overflow-x: hidden;
+    letter-spacing: -0.01em;
 }
 
 /* ============================================
@@ -133,34 +134,35 @@ h5,
 h6 {
     font-family: var(--font-heading);
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.15;
     color: var(--color-text-primary);
-    margin-bottom: var(--spacing-lg);
-    letter-spacing: -0.02em;
+    margin-bottom: var(--spacing-sm);
+    letter-spacing: -0.03em;
 }
 
 h1 {
-    font-size: clamp(2rem, 5vw, 3rem);
+    font-size: clamp(2.5rem, 6vw, 4rem);
     font-weight: 800;
 }
 
 h2 {
-    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-size: clamp(2rem, 5vw, 2.75rem);
     font-weight: 700;
 }
 
 h3 {
-    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-size: clamp(1.5rem, 4vw, 2rem);
 }
 
 h4 {
-    font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+    font-size: clamp(1.25rem, 3vw, 1.5rem);
 }
 
 p {
     margin-bottom: var(--spacing-md);
-    line-height: 1.7;
+    line-height: 1.65;
     color: var(--color-text-secondary);
+    font-size: 1.0625rem;
 }
 
 /* ============================================
@@ -254,9 +256,10 @@ section {
    HEADER & NAVIGATION - Enhanced
    ============================================ */
 .header {
-    background-color: rgba(255, 255, 255, 0.98);
-    backdrop-filter: blur(10px);
-    box-shadow: var(--shadow-sm);
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px) saturate(180%);
+    -webkit-backdrop-filter: blur(12px) saturate(180%);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -264,45 +267,49 @@ section {
 }
 
 .header.scrolled {
-    box-shadow: var(--shadow-md);
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: var(--shadow-sm);
+    padding: var(--spacing-2xs) 0;
 }
 
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: var(--spacing-lg) var(--spacing-xl);
+    padding: var(--spacing-md) var(--spacing-lg);
     transition: padding var(--transition-base);
-}
-
-.header.scrolled .header-container {
-    padding: var(--spacing-md) var(--spacing-xl);
 }
 
 /* Logo - Enhanced */
 .logo {
     display: flex;
     align-items: center;
-    gap: var(--spacing-md);
+    gap: var(--spacing-sm);
     text-decoration: none;
     transition: transform var(--transition-base);
 }
 
-.logo:hover {
-    transform: translateY(-2px);
-}
-
 .logo-img {
-    height: 48px;
+    height: 44px;
     width: auto;
     object-fit: contain;
     display: block;
-    transition: transform var(--transition-base);
 }
 
-.logo:hover .logo-img {
-    transform: scale(1.05);
+.logo-text {
+    font-size: 1.35rem;
+    font-weight: 800;
+    color: var(--color-primary);
+    letter-spacing: -0.04em;
+    line-height: 1;
+}
+
+.logo-subtitle {
+    font-size: 0.7rem;
+    color: var(--color-text-muted);
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
 }
 
 @media (max-width: 768px) {
@@ -546,85 +553,55 @@ section {
     }
 }
 
-/* ============================================
-   BUTTONS - Premium Design
-   ============================================ */
 .btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 0.875rem 2rem;
-    font-size: 1rem;
+    padding: 0.875rem 2.25rem;
+    font-size: 0.9375rem;
     font-weight: 600;
-    text-decoration: none;
     border-radius: var(--border-radius);
-    border: none;
-    cursor: pointer;
     transition: all var(--transition-base);
-    position: relative;
-    overflow: hidden;
-    letter-spacing: 0.01em;
-}
-
-.btn::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 0;
-    height: 0;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.2);
-    transform: translate(-50%, -50%);
-    transition: width var(--transition-slow), height var(--transition-slow);
-}
-
-.btn:hover::before {
-    width: 300px;
-    height: 300px;
+    cursor: pointer;
+    gap: var(--spacing-2xs);
+    white-space: nowrap;
 }
 
 .btn-primary {
-    background-color: var(--color-whatsapp);
+    background-color: var(--color-primary);
     color: var(--color-white);
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow-md);
 }
 
 .btn-primary:hover {
-    background-color: var(--color-whatsapp-dark);
-    transform: translateY(-2px);
+    background-color: var(--color-primary-dark);
+    transform: translateY(-3px) scale(1.02);
     box-shadow: var(--shadow-lg);
 }
 
-.btn-primary:active {
-    transform: translateY(0);
-    box-shadow: var(--shadow);
-}
-
 .btn-secondary {
-    background-color: transparent;
+    background-color: var(--color-white);
     color: var(--color-primary);
-    border: 2px solid var(--color-primary);
+    border: 1px solid var(--color-gray-200);
 }
 
 .btn-secondary:hover {
-    background-color: var(--color-primary);
-    color: var(--color-white);
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-md);
-}
-
-.btn-outline {
-    background-color: var(--color-white);
-    color: var(--color-primary);
-    border: 2px solid var(--color-accent);
-}
-
-.btn-outline:hover {
-    background-color: var(--color-accent);
     border-color: var(--color-primary);
-    transform: translateY(-2px);
+    background-color: var(--color-accent-light);
+    transform: translateY(-3px);
     box-shadow: var(--shadow-md);
+}
+
+.btn-whatsapp {
+    background-color: var(--color-whatsapp);
+    color: var(--color-white);
+    box-shadow: 0 10px 15px -3px rgba(18, 140, 126, 0.3);
+}
+
+.btn-whatsapp:hover {
+    background-color: var(--color-whatsapp-dark);
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 20px 25px -5px rgba(18, 140, 126, 0.4);
 }
 
 /* Hero section button overrides - for visibility on dark background */
@@ -660,80 +637,57 @@ section[style*="background-color: var(--color-primary)"] .btn-outline:hover {
    HERO SECTION - Modern & Engaging
    ============================================ */
 .hero {
-    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+    background: radial-gradient(circle at top right, var(--color-primary-light), transparent),
+        linear-gradient(135deg, var(--color-primary-dark), var(--color-primary));
     color: var(--color-white);
     padding: var(--spacing-4xl) 0;
     position: relative;
     overflow: hidden;
 }
 
-.hero::before {
+.hero::after {
     content: '';
     position: absolute;
-    top: 0;
+    bottom: -1px;
     left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-    opacity: 0.4;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, var(--color-white), transparent);
+    z-index: 2;
 }
 
 .hero-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--spacing-3xl);
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: var(--spacing-2xl);
     align-items: center;
     position: relative;
-    z-index: 1;
-}
-
-@media (max-width: 968px) {
-    .hero-content {
-        grid-template-columns: 1fr;
-        gap: var(--spacing-2xl);
-    }
+    z-index: 5;
 }
 
 .hero-text h1 {
     color: var(--color-white);
-    margin-bottom: var(--spacing-lg);
-    font-size: clamp(2rem, 5vw, 3.5rem);
+    margin-bottom: var(--spacing-md);
+    letter-spacing: -0.05em;
+    line-height: 1.05;
 }
 
 .hero-text p {
-    color: rgba(255, 255, 255, 0.9);
-    font-size: 1.125rem;
-    margin-bottom: var(--spacing-xl);
-    line-height: 1.7;
-}
-
-.hero-cta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--spacing-md);
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 1.25rem;
+    max-width: 90%;
 }
 
 .hero-image {
     border-radius: var(--border-radius-lg);
-    overflow: hidden;
-    box-shadow: var(--shadow-xl);
-    transform: perspective(1000px) rotateY(-5deg);
-    transition: transform var(--transition-slow);
+    box-shadow: 0 50px 100px -20px rgba(0, 0, 0, 0.5);
+    transform: perspective(1500px) rotateY(-12deg) rotateX(5deg) scale(1.05);
+    transition: transform 0.8s cubic-bezier(0.2, 0, 0, 1);
+    background-color: var(--color-gray-800);
 }
 
 .hero-image:hover {
-    transform: perspective(1000px) rotateY(0deg);
-}
-
-.hero-image img {
-    width: 100%;
-    height: auto;
-    display: block;
-    transition: transform var(--transition-slower);
-}
-
-.hero-image:hover img {
-    transform: scale(1.05);
+    transform: perspective(1500px) rotateY(-3deg) rotateX(2deg) scale(1.08);
 }
 
 /* ============================================
@@ -803,61 +757,52 @@ section[style*="background-color: var(--color-primary)"] .btn-outline:hover {
     background-color: var(--color-white);
     border-radius: var(--border-radius-lg);
     overflow: hidden;
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow-sm);
     transition: all var(--transition-base);
-    border: 1px solid var(--color-gray-200);
+    border: 1px solid var(--color-gray-100);
     display: flex;
     flex-direction: column;
 }
 
 .product-card:hover {
-    transform: translateY(-10px);
-    box-shadow: var(--shadow-xl);
-    border-color: var(--color-primary);
+    transform: translateY(-8px) scale(1.01);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--color-primary-light);
 }
 
 .product-image-wrapper {
     position: relative;
     overflow: hidden;
-    aspect-ratio: 4 / 3;
-    background-color: var(--color-gray-100);
+    aspect-ratio: 5 / 4;
 }
 
 .product-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform var(--transition-slower);
+    transition: transform 0.6s var(--ease-out);
 }
 
 .product-card:hover .product-image {
-    transform: scale(1.08);
+    transform: scale(1.1);
 }
 
 .product-content {
-    padding: var(--spacing-xl);
+    padding: var(--spacing-md);
     flex-grow: 1;
-    display: flex;
-    flex-direction: column;
 }
 
 .product-title {
     font-size: 1.25rem;
-    font-weight: 600;
-    color: var(--color-text-primary);
-    margin-bottom: var(--spacing-sm);
+    font-weight: 700;
+    margin-bottom: var(--spacing-2xs);
+    letter-spacing: -0.02em;
 }
 
 .product-desc {
     font-size: 0.9375rem;
+    line-height: 1.5;
     color: var(--color-text-secondary);
-    line-height: 1.6;
-    margin-bottom: var(--spacing-lg);
-    flex-grow: 1;
-}
-
-.product-btn {
-    margin-top: auto;
 }
 
 /* ============================================
@@ -885,19 +830,26 @@ section[style*="background-color: var(--color-primary)"] .btn-outline:hover {
 
 .whatsapp-float-btn,
 .whatsapp-btn {
-    width: 60px;
-    height: 60px;
+    width: 64px;
+    height: 64px;
     background-color: var(--color-whatsapp);
     color: var(--color-white);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.875rem;
-    text-decoration: none;
+    font-size: 2rem;
     box-shadow: var(--shadow-lg);
     transition: all var(--transition-base);
-    position: relative;
+    border: none;
+    cursor: pointer;
+}
+
+.whatsapp-float-btn:hover,
+.whatsapp-btn:hover {
+    transform: scale(1.1) translateY(-5px);
+    background-color: var(--color-whatsapp-dark);
+    box-shadow: var(--shadow-xl);
 }
 
 .whatsapp-btn svg,
@@ -956,24 +908,26 @@ section[style*="background-color: var(--color-primary)"] .btn-outline:hover {
     position: fixed;
     bottom: 2rem;
     left: 2rem;
-    width: 56px;
-    height: 56px;
-    background-color: transparent;
+    width: 60px;
+    height: 60px;
+    background-color: var(--color-white);
     color: var(--color-primary);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.5rem;
     cursor: pointer;
-    box-shadow: none;
+    box-shadow: var(--shadow-md);
     transition: all var(--transition-base);
     z-index: 998;
+    border: 1px solid var(--color-gray-100);
 }
 
 .chatbot-toggle:hover {
-    transform: scale(1.15);
-    color: var(--color-primary-dark);
+    transform: scale(1.1) translateY(-5px);
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    box-shadow: var(--shadow-lg);
 }
 
 .chatbot-window {
